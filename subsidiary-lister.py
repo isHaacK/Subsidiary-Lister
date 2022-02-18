@@ -37,4 +37,4 @@ else:
 		print("IP blacklisted from google")
 	else:
 		print(f"Nothing found for {company}, try full company name or change VPN location")
-		#print(f"Debug: maybe VPN language? showing some response text. \n{soup.text[len(company)+16:130]}")
+		#print(f"Debug: maybe VPN language? showing some response text. \n{soup.text[len(company)+16:130]}") 
