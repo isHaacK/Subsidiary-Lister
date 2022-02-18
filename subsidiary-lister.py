@@ -4,7 +4,7 @@ from bs4 import BeautifulSoup
 
 # the script might break in some languages (depends on the ip)
 
-# ./filiales.py "company name"
+# ./subsidiary-lister.py "company name"
 try:
 	company = sys.argv[1]
 except:
