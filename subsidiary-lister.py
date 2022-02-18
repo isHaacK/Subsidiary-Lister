@@ -25,7 +25,7 @@ if tabs:
 			print(t["aria-label"])
 
 		except:
-      # debug purposes since google is always changing stuff
+			# debug purposes since google is always changing stuff
 			print("something went wrong, saving error.html\n")
 			print("maybe VPN language?")
 			file = open("error.html","w")
