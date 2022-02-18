@@ -12,8 +12,8 @@ except:
 	exit(0)
 
 response = requests.get(f"https://www.google.com/search?q={company}+subsidiaries", \
-						cookies={"CONSENT":"YES+a.a"}, \
-						headers={"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:97.0) Gecko/20100101 Firefox/97.0"})
+			cookies={"CONSENT":"YES+a.a"}, \
+			headers={"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:97.0) Gecko/20100101 Firefox/97.0"})
 
 html_text = response.text
 soup = BeautifulSoup(html_text, 'html.parser')
